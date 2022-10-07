@@ -20,12 +20,12 @@
 
     transition: fill var(--time-duration) var(--cubic-bezier),
         background-color var(--time-duration) var(--cubic-bezier);
-}
 
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--accent-color);
-    fill: var(--white-color);
+        &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+            fill: var(--white-color);
+        }
 }
 
 .social-item+.social-item {

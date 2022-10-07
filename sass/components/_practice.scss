@@ -1,13 +1,13 @@
-.practice-list {
+.practice__list {
     display: flex;
     justify-content: space-between;
 }
 
-.practice-img {
+.practice__img {
     position: relative;
 }
 
-.practice-box {
+.practice__box {
     display: flex;
     position: absolute;
     width: 100%;

@@ -13,7 +13,7 @@ img {
     height: auto;
 }
 
-.image {
+.practice__image {
     display: block;
 }
 
@@ -31,19 +31,7 @@ img {
     padding-right: 15px;
 }
 
-.container-header {
-    padding-left: 15px;
-padding-right: 15px;
-}
 
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-
-    background-color: var(--background-main-color);
-}
 
 .section {
     padding-top: 94px;
@@ -66,7 +54,7 @@ padding-right: 15px;
     padding-bottom: 94px;
 }
 
-.practice-title,
+.practice__title,
 .team-title,
 .clients-title {
     margin-top: 0;

@@ -15,16 +15,14 @@
 
     transition: fill var(--time-duration) var(--cubic-bezier),
         border-color var(--time-duration) var(--cubic-bezier);
+
+        &:hover,
+        &:focus {
+            fill: var(--accent-color);
+                border-color: var(--accent-color);
+        }
 }
 
 .icon-client+.icon-client {
     margin-left: 30px;
-}
-
-.client-link:hover,
-.client-link:focus,
-.icon-client:hover,
-.icon-client:focus {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
 }
