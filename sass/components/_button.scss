@@ -88,6 +88,12 @@
 
 // filter button
 
+.filter {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
 .filter__button {
     display: inline-block;
     padding-left: 22px;
