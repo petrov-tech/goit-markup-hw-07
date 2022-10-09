@@ -7,7 +7,7 @@
     background-color: var(--background-main-color);
 }
 
-.header {
+.header-line {
     border-bottom: 1px solid var(--header-line);
 }
 
@@ -64,6 +64,20 @@
 
 .item {
     position: relative;
+}
+
+.item-current::after {
+    content: "";
+    
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+    
+        background-color: var(--accent-color);
 }
 
 .item-currents::after {
